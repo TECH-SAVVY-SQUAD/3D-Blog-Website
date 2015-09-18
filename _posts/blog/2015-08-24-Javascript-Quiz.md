@@ -3,6 +3,7 @@ layout: post
 title: 14 Javascript Quiz with Answers
 description: 14 Javascript Quiz
 category: Blog
+tag: Javascript
 ---
 <pre>
 <code class='javascript'>(function(){

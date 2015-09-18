@@ -3,6 +3,7 @@ layout: post
 title: Github Tutorial（Mac）- Upload local project to github
 description: upload local project to Github Repository
 category: Blog
+tag: Github
 ---
 
 ## 1. Create a new github repository in Github
