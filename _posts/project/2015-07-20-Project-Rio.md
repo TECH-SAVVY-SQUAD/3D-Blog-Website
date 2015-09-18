@@ -7,77 +7,88 @@ imageURL: project_rio/ipad.png
 githubURL: #
 introduction: Project Rio is a data visualization project based on law data in Brazil. These legal data includes cases happens each state all around Brazil, cases handled by different lawyers, justices, courts etc. 
 ---
-![Image of the whole application](/img/project/project_rio/ipad.png)
 
-## 1. Overview
-Project Rio is a data visualization project based on law data in Brazil. These legal data which is provied by a brazil company includes cases happens each state all around Brazil, cases handled by different lawyers, justices, courts etc. My job is to create a web application to display all the data in a elegant and user-friendly way.
-
-## 2. Technical 
-a. Framework: C# MVC
-
-b. Front-end Framework: Knockout.js MVVM
-
-c. Third Part front-end Library: JQWidget, Fusion Chart
-
-## 3. Features
-a. Mobile Friendly
-
-![Image of the mobile site](/img/project/project_rio/mobile2.png)
-
-<p class='center'>
-	Moible version of the application
-</p>
-
-This project is based on responsive design which means it will work well among all kinds of device including Phones, tablets and laptops.
-
-b. Interactive maps for data displaying
-
-![Image of the map](/img/project/project_rio/map.png)
-
-<p class='center'>
-	Screenshot for the map for both the country and each state
-</p>
-
-![Image of the map](/img/project/project_rio/map2.png)
-
-<p class='center'>
-	Screenshot of the map and filter when you select a state on the country map to see the detail of that state
-</p>
-
-In order to display the data in a more friendly and directly way, we attach all the data onto the map of Brazil. The number on each state indicates the number of cases occur in that state. If user click on the state, a detailed state map will show the number of cases in each city of that state. All the click on the states and cities will update the top statistics above.
-
-c. Muti-dimensional and dynamic data searching
-
-![Image of the time period dimension](/img/project/project_rio/time_dimension.png)
-
-<p class='center'>
-	Screenshot for the time period dimension
-</p>
-
-![Image of the all the dimensions](/img/project/project_rio/dimensions2.png)
-
-<p class='center'>
-	Screenshot of all the dimensions which users can search and set
-</p>
-
-The data in our system has various of dimensions such as time, locations, defendants, plaintiff, lawyers, justices and so on. We make all the dimensions dynamic which means users can search on all dimensions and select any specific dimensions. In this way, users can view data from 360 degrees. 
-
-d. Muti-language support
-
-Both English and Portuguese are supported in the system and the system is also scalable for future language support.
-
-e. Dynamic UI for top statistics
-
-![Image of the map](/img/project/project_rio/top_statistic.png)
-
-<p class='center'>
-	Screenshot for the map for top statistic
-</p>
-
-Fundamentally, system shows four top statistics of four dimensions when users first log in. But they can also customize the dashborad by drag different dimensions into the top statistics area to make it more personalized. 
-
-## 4. Summary
-This project is implemented with the help of my colleagues during my internship. It is kind of a basic prototype for demo. But all the technology used in the system is very popular and advanced. And the system is also scalable and robust. There are also many other features and functions need to be added to the projet since I don't have enough time to finish it during my internship.
-
-## 5. Acknowledge
-Jeremy Kroniser and Charlie Blasko
+<div class="row component-1" style="background-image:url({{ 'images/post.jpg' | prepend: site.baseurl }});">
+	<div class="col-1-3 col-offset-1-6 component-1-content">
+		<h1>Project Title</h1>
+		<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </h3>
+	</div>
+	<div class="clean"></div>
+</div>
+<div class="row component-2">
+	<div class="col-5-12 col-offset-1-12 component-2-left">
+		<h2>Introduction</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+	</div>
+	<div class="col-1-3 col-offset-1-6 component-2-right">
+		<h2>Project details</h2>
+		<ul>
+			<li>Role : </li>
+			<li>Project type : </li>
+			<li>Team : </li>
+			<li>Platform : </li>
+			<li>Tools : </li>
+			<li>Timeline : </li>
+		</ul>
+	</div>
+</div>
+<div class="row col-1-2 col-offset-1-4 divide">
+	<img src="{{ 'images/component-line.svg' | prepend: site.baseurl }}" alt="">
+</div>
+<div class="clean"></div>
+<div class="row component-4">
+	<h1>componenet title</h1>
+	<div class="col-10-12 col-offset-1-12">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+	</div>
+</div>
+<div class="col-1-2 col-offset-1-4 slider">
+	<ul id="sb-slider" class="sb-slider">
+		<li>
+			<img src="{{ 'images/project.jpeg' | prepend: site.baseurl }}" alt="image1">
+			<div class="sb-description">
+				<h3>Example 1</h3>
+			</div>
+		</li>
+		<li>
+			<img src="{{ 'images/project.jpeg' | prepend: site.baseurl }}" alt="image1">
+			<div class="sb-description">
+				<h3>Example 2</h3>
+			</div>
+		</li>
+		<li>
+			<img src="{{ 'images/project.jpeg' | prepend: site.baseurl }}" alt="image1">
+			<div class="sb-description">
+				<h3>Example 3</h3>
+			</div>
+		</li>
+	</ul>
+	<div id="nav-arrows" class="nav-arrows">
+		<a href="#">Next</a>
+		<a href="#">Previous</a>
+	</div>
+</div>
+<div class="row col-1-2 col-offset-1-4 divide">
+	<img src="{{ 'images/component-line.jpeg' | prepend: site.baseurl }}" alt="image1">
+</div>
+<div class="clean"></div>
+<div class="row component-3">
+	<h1>componenet title</h1>
+	<div class="col-1-4 col-offset-1-12 component-3-left">
+		<h2>Title</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+	</div>
+	<div class="col-7-12 col-offset-1-12 component-3-right" style="background-image:url({{ 'images/project/project.jpeg' | prepend: site.baseurl }})">
+	</div>
+</div>
+<div class="row component-3">
+	<div class="col-7-12 component-3-right" style="background-image:url({{ 'images/project/project.jpeg' | prepend: site.baseurl }})">
+	</div>
+	<div class="col-1-4 col-offset-1-12 component-3-left">
+		<h2>Title</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+	</div>
+</div>
+<div class="row col-1-2 col-offset-1-4 divide">
+	<img src="{{ 'images/component-line.svg' | prepend: site.baseurl }}" alt="">
+</div>
