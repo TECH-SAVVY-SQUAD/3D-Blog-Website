@@ -45,19 +45,19 @@ introduction: Project Rio is a data visualization project based on law data in B
 <div class="col-1-2 col-offset-1-4 slider">
 	<ul id="sb-slider" class="sb-slider">
 		<li>
-			<img src="{{ 'images/project.jpeg' | prepend: site.baseurl }}" alt="image1">
+			<img src="{{ 'images/project/project.jpeg' | prepend: site.baseurl }}" alt="image1">
 			<div class="sb-description">
 				<h3>Example 1</h3>
 			</div>
 		</li>
 		<li>
-			<img src="{{ 'images/project.jpeg' | prepend: site.baseurl }}" alt="image1">
+			<img src="{{ 'images/project/project.jpeg' | prepend: site.baseurl }}" alt="image1">
 			<div class="sb-description">
 				<h3>Example 2</h3>
 			</div>
 		</li>
 		<li>
-			<img src="{{ 'images/project.jpeg' | prepend: site.baseurl }}" alt="image1">
+			<img src="{{ 'images/project/project.jpeg' | prepend: site.baseurl }}" alt="image1">
 			<div class="sb-description">
 				<h3>Example 3</h3>
 			</div>
@@ -69,7 +69,7 @@ introduction: Project Rio is a data visualization project based on law data in B
 	</div>
 </div>
 <div class="row col-1-2 col-offset-1-4 divide">
-	<img src="{{ 'images/component-line.jpeg' | prepend: site.baseurl }}" alt="image1">
+	<img src="{{ 'images/component-line.svg' | prepend: site.baseurl }}" alt="image1">
 </div>
 <div class="clean"></div>
 <div class="row component-3">
