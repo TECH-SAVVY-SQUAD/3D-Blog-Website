@@ -56,7 +56,7 @@
                 <div><img src="images/project/{{ post.imageURL }}" alt="img05"></div>
                 <figcaption>
                 <h3>{{ post.title }}</h3>
-                <a href="{{ post.url }}">Take a look</a>
+                <a href="{{ post.url | prepend: site.baseurl }}">Take a look</a>
                 </figcaption>
             </figure>
         </div>
