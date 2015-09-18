@@ -8,7 +8,7 @@ githubURL: http://infsci2711.github.io/MultiDBs-INotebook-Server/
 introduction: MultiDBs INotebook Project is a sub-project for MultiDBs project. It aims to utilize iPython(Jupyter) notebook to do data analysis on MultiDBs datasets.
 ---
 
-<div class="row component-1" style="background-image:url({{ 'images/post.jpg' | prepend: site.baseurl }});">
+<div class="row component-1" style="background-image:url({{ '/images/post.jpg' | prepend: site.baseurl }});">
 	<div class="col-1-3 col-offset-1-6 component-1-content">
 		<h1>Project Title</h1>
 		<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </h3>
@@ -33,7 +33,7 @@ introduction: MultiDBs INotebook Project is a sub-project for MultiDBs project. 
 	</div>
 </div>
 <div class="row col-1-2 col-offset-1-4 divide">
-	<img src="{{ 'images/component-line.svg' | prepend: site.baseurl }}" alt="">
+	<img src="{{ '/images/component-line.svg' | prepend: site.baseurl }}" alt="">
 </div>
 <div class="clean"></div>
 <div class="row component-4">
@@ -45,19 +45,19 @@ introduction: MultiDBs INotebook Project is a sub-project for MultiDBs project. 
 <div class="col-1-2 col-offset-1-4 slider">
 	<ul id="sb-slider" class="sb-slider">
 		<li>
-			<img src="{{ 'images/project/project.jpeg' | prepend: site.baseurl }}" alt="image1">
+			<img src="{{ '/images/project/project.jpeg' | prepend: site.baseurl }}" alt="image1">
 			<div class="sb-description">
 				<h3>Example 1</h3>
 			</div>
 		</li>
 		<li>
-			<img src="{{ 'images/project/project.jpeg' | prepend: site.baseurl }}" alt="image1">
+			<img src="{{ '/images/project/project.jpeg' | prepend: site.baseurl }}" alt="image1">
 			<div class="sb-description">
 				<h3>Example 2</h3>
 			</div>
 		</li>
 		<li>
-			<img src="{{ 'images/project/project.jpeg' | prepend: site.baseurl }}" alt="image1">
+			<img src="{{ '/images/project/project.jpeg' | prepend: site.baseurl }}" alt="image1">
 			<div class="sb-description">
 				<h3>Example 3</h3>
 			</div>
@@ -69,7 +69,7 @@ introduction: MultiDBs INotebook Project is a sub-project for MultiDBs project. 
 	</div>
 </div>
 <div class="row col-1-2 col-offset-1-4 divide">
-	<img src="{{ 'images/component-line.svg' | prepend: site.baseurl }}" alt="image1">
+	<img src="{{ '/images/component-line.svg' | prepend: site.baseurl }}" alt="image1">
 </div>
 <div class="clean"></div>
 <div class="row component-3">
@@ -78,11 +78,11 @@ introduction: MultiDBs INotebook Project is a sub-project for MultiDBs project. 
 		<h2>Title</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 	</div>
-	<div class="col-7-12 col-offset-1-12 component-3-right" style="background-image:url({{ 'images/project/project.jpeg' | prepend: site.baseurl }})">
+	<div class="col-7-12 col-offset-1-12 component-3-right" style="background-image:url({{ '/images/project/project.jpeg' | prepend: site.baseurl }})">
 	</div>
 </div>
 <div class="row component-3">
-	<div class="col-7-12 component-3-right" style="background-image:url({{ 'images/project/project.jpeg' | prepend: site.baseurl }})">
+	<div class="col-7-12 component-3-right" style="background-image:url({{ '/images/project/project.jpeg' | prepend: site.baseurl }})">
 	</div>
 	<div class="col-1-4 col-offset-1-12 component-3-left">
 		<h2>Title</h2>
@@ -90,5 +90,5 @@ introduction: MultiDBs INotebook Project is a sub-project for MultiDBs project. 
 	</div>
 </div>
 <div class="row col-1-2 col-offset-1-4 divide">
-	<img src="{{ 'images/component-line.svg' | prepend: site.baseurl }}" alt="">
+	<img src="{{ '/images/component-line.svg' | prepend: site.baseurl }}" alt="">
 </div>
