@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: MultiDBs INotebook Project
 description: MultiDBs INotebook Project
 category: Project

@@ -1,6 +1,5 @@
 ---
----
-layout: post
+layout: project
 title: Project Rio (Internship Project)
 description: Data Visualization Project during Internship
 category: Project
