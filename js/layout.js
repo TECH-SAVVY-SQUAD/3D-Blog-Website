@@ -140,7 +140,7 @@ var view = {
             bottomButton.hide();
             leftButton.find('h3').html('Home');
             leftButton.find('.icon').css('fill', '#2c5379');
-            timeline.load('../images/timeline.svg', function() {
+            timeline.load('images/timeline.svg', function() {
                 $(this).addClass("svgLoaded");
             });
         } else {
