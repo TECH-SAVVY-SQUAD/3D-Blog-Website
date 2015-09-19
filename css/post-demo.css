@@ -1,0 +1,42 @@
+/* CSS Document */
+.header-img{
+	max-height:350px;
+	margin-top:20px;
+	}
+.header-img img{
+	width:100%;
+	max-height:350px;
+	}
+	
+.attributes{
+	text-align:center;
+	position:relative;
+	top:-40px;
+	color:#A0A0A0;
+	}
+.attributes p{
+	margin:0;
+	}
+	
+.header{
+	margin:0 auto;
+	text-align:center;
+	}
+.header h1{
+	font-family:"Reckoner Bold";
+	font-size:64px;
+	font-weight:bold;
+	text-transform:uppercase;
+	}
+
+.media{
+	margin-top:15px;
+	}
+.media img{
+	width:100%;
+	}
+.media-description{
+	text-align:center;
+	color:#a0a0a0;
+	margin-bottom:15px;
+	}
