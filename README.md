@@ -1,3 +1,3 @@
-# blogTemplate
+#  3D Blog Website
 
-This is a personal website template for github pages
+It's an amazing Blog Website which has a brand-new method of information display and some cool interaction effects.
