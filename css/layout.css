@@ -1,0 +1,418 @@
+@font-face {
+   font-family: Reckoner;
+   src: url(../font/Reckoner.ttf);
+}
+@font-face {
+   font-family: Reckoner;
+   src: url(../font/Reckoner_Bold.ttf);
+   font-weight:bold;
+}
+
+html,body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'helvetica', sans-serif;
+}
+
+figure {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/*grid*/
+.container {
+	overflow: hidden;
+	height: 100%;
+}
+
+.matrix-col {
+	position: absolute;
+	opacity: 1;/*
+	float: left;*/
+}
+
+
+
+
+.bg-light-pink {
+	background-color: #e56292;
+}
+.bg-yellow{
+	background-color: #FBD55C;
+}
+.bg-dark-black {
+	background-color: #2e2f34;
+}
+.bg-dark-blue {
+	background-color: #2c5379;
+}
+.bg-green {
+	background-color: #48a075;
+}
+.bg-white {
+	background-color: white;
+}
+
+/*utility*/
+.center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.shadow-up {
+	box-shadow: 7px -7px 7px;
+}
+
+.shadow-down {
+	box-shadow: 7px 7px 7px;
+}
+
+.shadow-left-down {
+	box-shadow: -7px 7px 7px;
+}
+
+.shadow-left-up {
+	box-shadow: -7px -7px 7px;
+}
+
+.clean {
+	clear: both;
+}
+
+/*component*/
+.title {
+	font-size: 70px;
+	margin: 0 0 30px 0;
+	color: white;
+	font-family:"Reckoner";
+	letter-spacing:2px;
+	font-weight: bold;
+}
+
+.center-subtitle{
+	color:#fff;
+	display:inline;
+	float: left;
+	font-family:"Reckoner";
+	font-weight: bold;
+	font-size:40px;
+	}
+
+.sub-title {
+	font-size: 26px;
+	margin: 40px 0 30px 0;
+	color: white;
+}
+
+.sl-h1 {
+	font-size: 32px;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 23px;
+	padding: 8px 0;
+	font-family: Reckoner;
+	text-transform:uppercase;
+	color:#fd7045;
+}
+
+
+.sl-h2 {
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 23px;
+	padding: 8px 0;
+}
+
+.sl-h3 {
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 23px;
+	padding: 8px 0;
+}
+
+.sl-h4 {
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 23px;
+	padding: 8px 0;
+}
+
+
+
+.center-title {
+	position: relative;
+	top: 35%;
+	text-align: center;
+}
+.center-content{
+	color:#fff;
+	position:relative;
+	top:38%;
+	}
+
+.visible{
+	float: left;
+	font-weight:500;
+	overflow:hidden;
+	height:40px;
+	color:#fff;
+	font-size:28px;
+	}
+.visible ul{
+	margin-top:0;
+	padding-left:190px;
+	text-align:left;
+	list-style:none;
+	animation: 10s linear 0s normal none infinite change;
+    -webkit-animation: 10s linear 0s normal none infinite change;
+    -moz-animation: 10s linear 0s normal none infinite change;
+    -o-animation: 10s linear 0s normal none infinite change;
+	}
+.visible ul li{
+	line-height:40px;
+	margin:0;
+	font-family:"Reckoner";
+	font-weight: bold;
+	font-size:40px;
+	}
+
+@-webkit-keyframes change {
+   0% {
+    margin-top: 0px;
+  }
+  10% {
+    margin-top: 0px;
+  }
+  15% {
+    margin-top: -40px;
+  }
+  25% {
+    margin-top: -40px;
+  }
+  30% {
+    margin-top: -80px;
+  }
+  40% {
+    margin-top: -80px;
+  }
+  45% {
+    margin-top: -120px;
+  }
+  55% {
+    margin-top: -120px;
+  }
+  60% {
+    margin-top: -80px;
+  }
+  70% {
+    margin-top: -80px;
+  }
+  75% {
+    margin-top: -40px;
+  }
+  85% {
+    margin-top: -40px;
+  }
+  90% {
+    margin-top: 0px;
+  }
+  100% {
+   margin-top: 0px;
+  }
+}
+@keyframes change {
+  0% {
+    margin-top: 4px;
+  }
+  10% {
+    margin-top: 4px;
+  }
+  15% {
+    margin-top: -36px;
+  }
+  25% {
+    margin-top: -36px;
+  }
+  30% {
+    margin-top: -76px;
+  }
+  40% {
+    margin-top: -76px;
+  }
+  45% {
+    margin-top: -116px;
+  }
+  55% {
+    margin-top: -116px;
+  }
+  60% {
+    margin-top: -76px;
+  }
+  70% {
+    margin-top: -76px;
+  }
+  75% {
+    margin-top: -36px;
+  }
+  85% {
+    margin-top: -36px;
+  }
+  90% {
+    margin-top: 4px;
+  }
+  100% {
+   margin-top: 4px;
+  }
+}
+
+.nav i {
+	position: fixed;
+	right: 10px;
+	top: 10px;
+	opacity: 0.4;
+	font-size: 25px;
+	color: black;
+}
+/*svg*/
+.svg-wrap {
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	overflow: hidden;
+}
+
+/*horizontal nav*/
+nav a{
+	position:absolute;
+	display:block;
+	z-index: 1000;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	}
+nav a.horizontal{
+	top:50%;
+	width: 62px;
+	border-radius: 15px;
+	}
+nav a.vertical{
+	left:49%;
+	width: 13px;
+	height: 30px;
+	border-radius: 10px;
+	}
+nav a.nav-left{
+	left:0;
+	}
+nav a.nav-right{
+	right:0;
+	}
+nav a.nav-top{
+	top:35px;
+	}
+nav a.nav-down{
+	bottom: -15px;
+	}
+nav a svg {
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+}
+.nav-roundcircle a{
+	margin: 0 20px;
+	padding: 10px;
+	height: 18px;
+	background: #444d51;
+	-webkit-transition: width 0.3s, background-color 0.3s;
+	transition: width 0.3s, background-color 0.3s;
+	}
+.nav-roundcircle .icon-wrap {
+	position: absolute;
+	width: 32px;
+}
+
+.nav-roundcircle a.nav-left .icon-wrap {
+	left: 15px;
+	top:3px;
+}
+.nav-roundcircle a.nav-top .icon-wrap {
+	top:3px;
+}
+
+.vertical .icon-wrap {
+	left: -3px;
+}
+
+.nav-roundcircle a.nav-right .icon-wrap {
+	right: 15px;
+	top:3px;
+}
+
+.nav-roundcircle svg.icon {
+	fill: #2e2f34;
+}
+.nav-roundcircle h3 {
+	position: absolute;
+	top: -10px;
+	margin: 0;
+	color: #2e2f34;
+	text-transform: uppercase;
+	white-space: nowrap;
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-size: 0.85em;
+	line-height: 4.45;
+	opacity: 0;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+.nav-roundcircle a.nav-gen h3 {
+	right: 20px;
+	-webkit-transform: translateX(100%);
+	transform: translateX(100%);
+}
+
+.nav-roundcircle a.nav-right h3 {
+	left: 20px;
+	-webkit-transform: translateX(-100%);
+	transform: translateX(-100%);
+}
+
+.horizontal:hover {
+	width: 150px;
+	background: #fff;
+}
+.vertical:hover{
+	width: 100px;
+	background: #fff;
+	}
+
+.nav-roundcircle a:hover h3 {
+	opacity: 1;
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+}

@@ -1,0 +1,13 @@
+{
+  "name": "3D-Blog-Website",
+  "version": "1.0.0",
+  "author": "Jiadong Wu & Liu Han",
+  "devDependencies": {
+    "grunt": "0.x.x",
+    "grunt-contrib-concat": "~0.1.1",
+    "grunt-contrib-cssmin": "^0.14.0",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-uglify": "~0.1.0",
+    "grunt-contrib-watch": "~0.1.4"
+  }
+}

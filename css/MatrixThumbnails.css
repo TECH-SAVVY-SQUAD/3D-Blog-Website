@@ -1,0 +1,94 @@
+.matrix-thumbnails {
+	position: absolute;
+	visibility:hidden;
+	z-index: 2000;
+	width: 100%;
+	height: 80%;
+	top: 10%;
+}
+
+.matrix-thumbnails .row {
+	height: 33%;
+}
+
+.thumbnail {
+	height: 100%;
+}
+
+.matrix-thumbnails-backgd {
+	position: absolute;
+	display: none;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1040;
+	background-color: #000;
+	opacity: 0.6;
+}
+
+.thumbnail-top, .thumbnail-left, .thumbnail-center, .thumbnail-right,
+.thumbnail-bottom {
+	margin: 5% 5%;
+	height: 90%;
+	width: 90%;
+	border-radius: 3px;
+	position: relative;
+}
+
+.thumbnail-title {
+	position: absolute;
+	width: 100%;
+	font-size: 26px;
+  	top: 50%;
+  	margin-top: -15px;
+  	color: white;
+}
+
+.thumbnail-top{
+	margin-top: -25%;
+}
+
+.thumbnail-top.complete {
+	margin-top: 5%;
+	transition: margin-top 0.05s ease-out;
+	-webkit-transition: margin-top 0.05s ease-out;
+	-moz-transition: margin-top 0.05s ease-out;
+	-o-transition: margin-top 0.05s ease-out;
+}
+
+.thumbnail-left{
+	margin-left: -25%;
+}
+
+.thumbnail-left.complete {
+	margin-left: 5%;
+	transition: margin-left 0.05s ease-out;
+	-webkit-transition: margin-left 0.05s ease-out;
+	-moz-transiton: margin-left 0.05s ease-out;
+	-o-transtion: margin-left 0.05s ease-out;
+}
+
+.thumbnail-right{
+	margin-left: 30%;
+}
+
+.thumbnail-right.complete{
+	margin-left: 5%;
+	transition: margin-left 0.05s ease-out;
+	-webkit-transition: margin-left 0.05s ease-out;
+	-moz-transiton: margin-left 0.05s ease-out;
+	-o-transtion: margin-left 0.05s ease-out;
+}
+
+.thumbnail-bottom{
+	margin-top: 30%;
+}
+
+.thumbnail-bottom.complete {
+	margin-top: 5%;
+	transition: margin-top 0.05s ease-out;
+	-webkit-transition: margin-top 0.05s ease-out;
+	-moz-transiton: margin-top 0.05s ease-out;
+	-o-transtion: margin-top 0.05s ease-out;
+}
